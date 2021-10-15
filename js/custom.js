@@ -7,6 +7,7 @@
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
         $('#navbarNav').toggleClass('fixed-dark')
+        changeMode();
     })
 
     // HEADER

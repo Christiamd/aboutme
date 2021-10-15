@@ -1,11 +1,14 @@
-const sendMail = () => {
-    event.preventDefault();
-    let message = document.querySelector("#message").value;
-    const myMail = "christiamdelacruz@gmail.com";
-    let mail = document.querySelector("#email").value;
-    let sname = document.querySelector("#name").value;
-    const subject = "Vengo de la pagina web";
-    window.location.href = `mailto:${myMail}?Subject=${subject}&Body=${message}`;
+actualMode=localStorage.getItem('mode');
+if (actualMode == 'dark'){
+    document.querySelector('.color-mode-icon').classList.toggle('active');
+    document.querySelector('#navbarNav').classList.toggle('fixed-dark');
+    document.body.classList.toggle('dark-mode');
 }
 
-document.querySelector("#send-mail").addEventListener("click", sendMail);
+
+const changeMode = ()=>{
+    let mode = localStorage.getItem('mode');
+    if (mode == "dark")localStorage.setItem('mode','light');
+    else localStorage.setItem('mode','dark')
+}
+
