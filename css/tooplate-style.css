@@ -477,9 +477,6 @@ b, strong {
   }
 }
 @media (max-width: 991px) {
-  .about-image{
-    display: none;
-  }
   .full-screen {
     padding-top: 0px;
     padding-bottom:0px 
