@@ -606,3 +606,6 @@ figure{
 .contact-form{
   width:100%;
 }
+.dark-mode .navbar-toggler-icon{
+  background: rgb(240, 240, 240);
+}
