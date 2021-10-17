@@ -485,10 +485,6 @@ b, strong {
     padding-bottom:0px 
   }
 
-  .contact-form{
-    height: 1000px;
-  }
-
   .about-image {
     margin-top: 4em;
   }
@@ -608,7 +604,12 @@ figure{
 }
 .contact-form{
   width:100%;
+  height:1000px
 }
 .dark-mode .navbar-toggler-icon{
   background: rgb(240, 240, 240);
+}
+.resume{
+  padding-top:9px!important;
+  padding-bottom:8px!important;
 }
