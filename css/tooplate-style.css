@@ -613,3 +613,6 @@ figure{
   padding-top:9px!important;
   padding-bottom:8px!important;
 }
+.dark-mode small{
+  color: rgb(194, 190, 190);
+}
