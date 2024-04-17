@@ -1,0 +1,12 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "project": "Administrador de archivos FTP",
+            "description": "El proyecto ayuda a adminstrar archivos de gestion empresarial, todos los archivos se guardan en un servidor ftp de forma cifrada, para acceder a estos archivos se hace a traves del sistema el cual validará las credenciales del usuario y le retornará el archivo obteniendolo desde el servidor FTP",
+            "image": "ftp.png",
+            "tecnologies": "PHP, MySQL, JavaScript, Filezilla",
+            "github": null
+        }
+    ]
+}
